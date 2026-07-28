@@ -17,8 +17,8 @@ Primeiro, você precisa criar as Function Apps no Azure:
 
 ```bash
 # Variáveis
-RESOURCE_GROUP="rg-task-management"
-LOCATION="East US"
+RESOURCE_GROUP="DefaultResourceGroup-CQ"
+LOCATION="Brazil South"
 STORAGE_ACCOUNT="sttaskmanagement$(date +%s)"
 FUNCTION_APP_PROD="task-management-functions"
 FUNCTION_APP_DEV="task-management-functions-dev"
